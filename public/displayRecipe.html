@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Results</title>
+		<link
+			rel="stylesheet"
+			href="../styles/style.css" type="text/css" />
+		<link
+			rel="stylesheet"
+			href="./displayRecipe.css" />
+
+		</head>
+		
+		<body>
+			<header class="header">
+				<div class="left-side">
+					<h1>Results:</h1>
+					<p id="recipe-count"></p>
+				</div>
+				
+				<!-- Search -->
+				<div class="search-field">
+					<input
+					type="text"
+					name="searchResult"
+					id="search"
+					title="Find Recipe"
+					placeholder="Search by recipe names or first letter..." 
+					/>
+					<button
+					type="button"
+					title="Search Button"
+					id="search-btn">
+					<img
+					src="./svgs/Search.svg"
+					alt="Search Icon" />
+				</button>
+			</div>
+		</header>
+		
+		<div class="flex">
+			<aside class="left-aside">
+				<div class="filter-options">
+					<div class="c">
+						<h2>Category</h2>
+						<div>
+							<span>Beef</span>
+							<span>Chicken</span>
+							<span>Dessert</span>
+							<span>Lamb</span>
+							<span>Pasta</span>
+							<span>Pork</span>
+							<span>Seafood</span>
+							<span>Vegetarian</span>
+							<span>Goat</span>
+							<span>Vegan</span>
+							<span>Breakfast</span>
+						</div>
+					</div>
+					<div class="a">
+						<h2>Areas</h2>
+						<div>
+							<span>American</span>
+							<span>British</span>
+							<span>Canadian</span>
+							<span>Chinese</span>
+							<span>Croatian</span>
+							<span>Dutch</span>
+							<span>Egyptian</span>
+							<span>Filipino</span>
+							<span>French</span>
+							<span>Greek</span>
+							<span>Indian</span>
+						</div>
+					</div>
+					<div class="i">
+						<div>
+							<h2>Ingredients</h2>
+							<span>Chicken</span>
+							<span>Salmon</span>
+							<span>Beef</span>
+							<span>Pork</span>
+							<span>Avocado</span>
+							<span>Apple Cider Vigar</span>
+							<span>Asparagus</span>
+							<span>Aubergine (Eggplant)</span>
+							<span>Baby Plum Tomatoes</span>
+							<span>Bacon</span>
+							<span>Baking Powder</span>
+						</div>
+					</div>
+				</div>
+			</aside>
+			
+			<!-- Add a message when no recipe are rendered -->
+			<p id="noRecipe-message" class="message"></p> 
+			<div class="grid" id="recipe-container">
+				<!-- <div class="meal">
+					<img
+					src="/featured/beef-stroganoff-bg.png"
+					alt="" />
+					
+					<div class="recipe-info">
+						<h3>Bramley Apples</h3>
+						<span>Breakfast, Sweet</span><br />
+						<button type="button">View Recipe</button>
+					</div>
+				</div> -->
+
+			</div>
+			<script  src="../src/mealDBAPI.js"></script>
+
+		</body>
+		</html>
+		

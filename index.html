@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FindRecipe - Find your perfect dish!</title>
+  <meta name="description"
+    content="Dive into a global pantry of over 300+ recipes from a vast collection of recipes from around the world. Find your perfect dish!">
+  <link rel="shortcut icon" href="/svgs/logo.svg" type="image/x-icon">
+  <link rel="stylesheet" href="./styles/style.css" type="text/css">
+  
+
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Pontano+Sans&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header" id="headerId">
+    <nav class="nav container">
+      <!-- Brand name -->
+      <div class="brand-name">
+        <img src="/svgs/logo.svg" alt="FindRecipe's Logo">
+        <a href="#">Find<span class="highlight">Recipe</span></a>
+      </div>
+
+      <!-- Hamburger -->
+      <img src="/svgs/menu.svg" alt="Menu" id="menu">
+
+      <!-- Close Menu -->
+      <!-- <img src="/svgs/close.svg" alt="Close Menu" id="close"> -->
+
+      <!-- Navbar Lists -->
+      <ul id="navbar-mobile">
+        <li>
+          <a href="#">
+            Home
+          </a>
+        </li>
+        <li>
+          <a id="dropdown">
+            Recipes
+            <img src="/svgs/Expand Arrow.svg" id="expand" class="expandImg" alt="Expand dropdown">
+          </a>
+          <div class="dropdown-list">
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#featured">Featured Recipes</a>
+              <a href="#category">Category</a>
+              <a href="#latest">Latest Meals</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="#blogPage">
+            Blog
+          </a>
+        </li>
+        <li>
+          <a href="#newsletters">
+            Newsletter
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main -->
+  <main class="main container">
+    <div class="main-content">
+      <h1>Find<span class="highlight">Recipe</span></h1>
+      <p>Dive into a global pantry of over 300+ recipes from a vast collection of recipes from around the world. Find
+        your perfect dish!</p>
+
+      <div class="search-field">
+        <input type="text" name="searchResult"  id="search" title="Find Recipe"
+          placeholder="Search by recipe names or first letter...">
+        <button type="button" title="Search Button" id="search-btn">
+          <img src="/svgs/Search.svg" alt="Search Icon">
+        </button>
+      </div>
+    </div>
+
+    <img src="/Hero Image.png" alt="Hero Image" class="hero-img">
+  </main>
+
+  <!-- Featured Recipes -->
+  <section class="featured-recipes" id="featured">
+    <h2 class="container">Featured Recipes</h2>
+    <!-- Slider main container -->
+    <div class="swiper container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <a rel="noopener" href="/featured-page/rock-cakes.html" target="_blank" title="rock-cakes">
+            <div class="card">
+              <div>
+                <img class="food-img" src="featured/Rock-Cakes.png" alt="Rock-Cakes">
+              </div>
+              <div class="card-content">
+                <h3>Rock Cakes</h3>
+                <span>
+                  <img src="country_icon/Great Britain.svg" alt="United Kingdowm"> United Kingdom
+                </span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a rel="noopener" href="/featured-page/MaPoTofu.html" target="_blank" title="ma-po-tofu">
+            <div class="card">
+              <div>
+                <img class="food-img" src="featured/Ma-Po-Tofu.png" alt="Ma-Po-Tofu">
+              </div>
+              <div class="card-content">
+                <h3>Ma Po Tofu</h3>
+                <span>
+                  <img src="country_icon/China.svg" alt="China">China
+                </span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a rel="noopener" href="/featured-page/shrimp-chow-fun.html" target="_blank" title="shrimp-chow-fun">
+            <div class="card">
+              <div>
+                <img class="food-img" src="featured/Shrimp-Chow-Fun.png" alt="Shrimp Chow Fun">
+              </div>
+              <div class="card-content">
+                <h3>Shrimp Chow Fun</h3>
+                <span>
+                  <img src="country_icon/China.svg" alt="China"> China
+                </span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a rel="noopener" href="/featured-page/Beef-stroganoff.html" target="_blank" title="beef-stroganoff">
+            <div class="card">
+              <div>
+                <img class="food-img" src="featured/Beef-stroganoff.jpg" alt="Beef stroganoff">
+              </div>
+              <div class="card-content">
+                <h3>Beef stroganoff</h3>
+                <span>
+                  <img src="country_icon/Russian Federation.svg" alt="Russia"> Russia
+                </span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a rel="noopener" href="/featured-page/Steak-and-Kidney-Pie.html" target="_blank"
+            title="steak-and-kidney-pie">
+            <div class="card">
+              <div>
+                <img class="food-img" src="featured/Steak and-Kidney-Pie.jpg" alt="Steak and Kidney Pie">
+              </div>
+              <div class="card-content">
+                <h3>Steak and Kidney Pie</h3>
+                <span>
+                  <img src="country_icon/Great Britain.svg" alt="United Kingdowm"> United
+                  Kingdom
+                </span>
+              </div>
+            </div>
+        </div>
+        </a>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination">
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+
+      <!-- If we need scrollbar -->
+      <!-- <div class="swiper-scrollbar"></div> -->
+    </div>
+
+    <div class="bg"></div>
+    <!-- Lists of Categories -->
+    <section class="categories" id="category">
+      <h2>Find Recipes by Category</h2>
+      <div class="category-container">
+        <div class="row1">
+          <div class="category">
+            <img src="/category/pork.png" alt="Pork">
+            <h4>Pork</h4>
+          </div>
+          <div class="category">
+            <img src="/category/seafood.png" alt="Seafood">
+            <h4>Seafood</h4>
+          </div>
+          <div class="category">
+            <img src="/category/lamb.png" alt="Lamb">
+            <h4>Lamb</h4>
+          </div>
+          <div class="category">
+            <img src="/category/vegetarian.png" alt="Vegetarian">
+            <h4>Vegetarian</h4>
+          </div>
+          <div class="category">
+            <img src="/category/chicken.png" alt="Chicken">
+            <h4>Chicken</h4>
+          </div>
+          <div class="category">
+            <img src="/category/goat.png" alt="Goat">
+            <h4>Goat</h4>
+          </div>
+        </div>
+
+        <div class="row2">
+          <div class="category">
+            <img src="/category/breakfast.png" alt="Breakfast">
+            <h4>Breakfast</h4>
+          </div>
+          <div class="category">
+            <img src="/category/dessert.png" alt="Dessert">
+            <h4>Dessert</h4>
+          </div>
+          <div class="category">
+            <img src="/category/beef.png" alt="Beef">
+            <h4>Beef</h4>
+          </div>
+          <div class="category">
+            <img src="/category/pasta.png" alt="Pasta">
+            <h4>Pasta</h4>
+          </div>
+          <div class="category">
+            <img src="/category/vegan.png" alt="Vegan">
+            <h4>Vegan</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- Blog  -->
+  <section class="blog container" id="blogPage">
+    <h2>Check our latest blog!</h2>
+    <div class="blog-content">
+
+      <img src="blog/11-Simple-Ways-to-Cook-an-Egg.png" alt="11-Simple-Ways-to-Cook-an-Egg">
+
+      <div class="blog-texts">
+        <h3>11 Simple (and Delicious) Ways to Cook Eggs</h3>
+        <p>Eggs are one of the most versatile ingredients in the kitchen. Thevre
+          used in everything from breakfast to dessert and delicious as a main,
+          side or topping. Get cracking on these 11 easy ways to cook eggs.</p>
+        <a href="/blog/blog.html" title="learn more">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Meals -->
+  <section class="lastest-meals" id="latest">
+    <h2 class="container">Latest Meals</h2>
+    <!-- Slider main container -->
+    <div class="swiper container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <a rel="noopener" href="/lastest-page/Blini-Pancakes.html" target="_blank" title="Blini-Pancakes">
+            <div class="card">
+              <div>
+                <img class="food-img" src="/lastest/Blini-Pancakes.png" alt="Blini-Pancakes">
+              </div>
+              <div class="card-content">
+                <h3>Blini Pancakes</h3>
+                <span>
+                  <img src="country_icon/Russian Federation.svg" alt="Russia"> Russia
+                </span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a rel="noopener" href="/lastest-page/CabbageSoup.html" target="_blank" title="Cabbage-Soup-(Shchi)">
+            <div class="card">
+              <div>
+                <img class="food-img" src="lastest/Cabbage-Soup-(Shchi).png" alt="Cabbage-Soup-(Shchi)">
+              </div>
+              <div class="card-content">
+                <h3>Cabbage Soup (Shchi)</h3>
+                <span>
+                  <img src="country_icon/Russian Federation.svg" alt="Russia">Russia
+                </span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a rel="noopener" href="/lastest-page/FishSoup.html" target="_blank" title="Fish-Soup-(Ukha)">
+            <div class="card">
+              <div>
+                <img class="food-img" src="lastest/Fish-Soup-(Ukha).png" alt="Fish-Soup-(Ukha)">
+              </div>
+              <div class="card-content">
+                <h3>Fish Soup (Ukha)</h3>
+                <span>
+                  <img src="country_icon/Russian Federation.svg" alt="Russia">Russia
+                </span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a rel="noopener" href="/lastest-page/LambPilaf.html" target="_blank" title="Lamb-Pilaf-(Plov).png">
+            <div class="card">
+              <div>
+                <img class="food-img" src="lastest/Lamb-Pilaf-(Plov).png" alt="Lamb-Pilaf-(Plov).png">
+              </div>
+              <div class="card-content">
+                <h3>Lamb Pilaf (Plov).png</h3>
+                <span>
+                  <img src="country_icon/Russian Federation.svg" alt="Russia"> Russia
+                </span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a rel="noopener" href="/lastest-page/Strawberries-Romanoff.html" target="_blank"
+            title="Strawberries-Romanoff.png">
+            <div class="card">
+              <div>
+                <img class="food-img" src="lastest/Strawberries-Romanoff.png" alt="Strawberries-Romanoff.png">
+              </div>
+              <div class="card-content">
+                <h3>Strawberries Romanoff</h3>
+                <span>
+                  <img src="country_icon/Russian Federation.svg" alt="Russia">Russia
+                </span>
+              </div>
+            </div>
+        </div>
+        </a>
+      </div>
+
+      <!-- If we need pagination -->
+      <div class="swiper-pagination">
+      </div>
+    </div>
+
+    </div>
+    <div class="bg2">
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter" id="newsletters">
+    <div class="newsletter-content">
+      <h2>Subscribe Our Newsletter</h2>
+      <p>Stay updated with our lastest news and recipes!</p>
+      <div class="newsletter-input">
+        <div>
+          <img src="/Mail.png" alt="Mail" class="mail">
+        </div>
+
+        <input type="text" name="email" title="user-email" placeholder="Enter your email">
+        <div>
+          <img src="/Forward-Button.png" alt="" class="forward">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section class="footer">
+    <div class="container">
+      <div class="footer-header">
+        <!-- Brand name -->
+        <div class="brand-name">
+          <img src="/svgs/logo.svg" alt="FindRecipe's Logo">
+          <a href="#">Find<span class="highlight">Recipe</span></a>
+        </div>
+      </div>
+
+      <div class="footer-grid">
+        <div class="col">
+          <h3>Explore</h3>
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#blogPage">Blog</a>
+            </li>
+            <li>
+              <a href="#newsletters">Newsletter</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <div class="divider"></div>
+          <h3>Recipes</h3>
+          <ul>
+            <li>
+              <a href="#category">Category</a>
+            </li>
+            <li>
+              <a href="#latest">Latest Meals</a>
+            </li>
+            <li>
+              <a href="#featured">Featured Recipes</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <div class="divider"></div>
+          <h3>Contact</h3>
+          <ul>
+            <li>
+              <a href="#">
+                123 Main Street, Cityville
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                +1 (555) 123-4567
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                info@findrecipe.com
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <h3>Social Media</h3>
+          <div class="social">
+            <div class="social-icons">
+              <img src="/svgs/Facebook.svg" alt="" srcset="">
+            </div>
+            <div class="social-icons">
+              <img src="/svgs/Instagram.svg" alt="" srcset="">
+            </div>
+            <div class="social-icons">
+              <img src="/svgs/TwitterX.svg" alt="" srcset="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-footer">
+        <div class="content">
+          <p>Powered by MealDB API</p>
+          <p>Copyright © 2023 FindRecipe. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <script type="module" src="./src/main.js">
+  </script>
+</body>
+
+</html>

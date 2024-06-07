@@ -1,0 +1,106 @@
+.blog {
+    padding: 1rem;
+}
+
+.blog h2 {
+    font-family: var(--font1);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.blog-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+
+.blog-content img {
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+}
+
+.blog-content h3 {
+    font-family: var(--font1);
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.blog-content p {
+    font-family: var(--font1);
+    letter-spacing: 2%;
+    color: var(--clr11);
+    line-height: 30px;
+    max-width: 416px;
+    margin-top: 15px;
+}
+
+.blog-texts a {
+    border: 2px solid var(--clr1);
+    padding: 0.70rem 1.5rem;
+    font-weight: bold;
+    font-family: var(--font1);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+@media(min-width: 580px) {
+    .blog-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .blog h2 {
+        font-family: var(--font1);
+        font-size: 25px;
+        text-align: center;
+        margin-top: 84px;
+        margin-bottom: 50px;
+
+    }
+
+    .blog-content {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .blog-content h3 {
+        font-family: var(--font1);
+        font-size: 20px;
+    }
+
+    .blog-content p {
+        font-family: var(--font1);
+        letter-spacing: 2%;
+        color: var(--clr11);
+        line-height: 30px;
+        max-width: 516px;
+        margin-top: 15px;
+    }
+
+    .blog-texts a {
+        border: 2px solid var(--clr1);
+        padding: 0.70rem 1.5rem;
+        font-weight: bold;
+        font-family: var(--font1);
+        font-size: 1rem;
+        letter-spacing: 5%;
+        margin-top: 41px;
+    }
+}

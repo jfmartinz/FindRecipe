@@ -1,0 +1,91 @@
+.featured-recipes {
+	/* background-color: red; */
+	padding: 1rem 1rem 2.5rem 1rem;
+	position: relative;
+}
+
+.swiper {
+	min-height: 290px;
+}
+
+.featured-recipes h2 {
+	font-family: var(--font1);
+	font-size: 1.25rem;
+	letter-spacing: 2%;
+	margin-bottom: 20px;
+}
+
+.swiper-slide .card {
+	border-radius: 5px;
+}
+
+.card .food-img {
+	width: 14.875rem;
+	height: 10.25rem;
+	background-size: cover;
+	background-position: center;
+}
+
+.card {
+	background-color: var(--clr13);
+	padding: 10px;
+	border-radius: 10px;
+	width: 15.875rem;
+	height: 15.3125rem;
+	cursor: pointer;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.card .card-content h3 {
+	font-family: var(--font1);
+	font-size: 0.9375rem;
+	font-weight: 500;
+}
+
+.card .card-content span {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	font-size: 0.8125rem;
+	font-family: var(--font1);
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+	background-color: var(--clr1);
+}
+
+a {
+	text-decoration: none;
+	color: var(--clr);
+}
+
+.bg {
+	bottom: 0px;
+	position: absolute;
+	left: 0px;
+	right: 0;
+	display: none;
+	min-height: 516px;
+	width: 100%;
+	background-color: var(--clr10);
+}
+
+/* Responsive */
+
+@media (min-width: 768px) {
+	.featured-recipes h2 {
+		font-family: var(--font1);
+		font-size: 1.5625rem;
+		letter-spacing: 2%;
+		margin-bottom: 20px;
+	}
+
+	.card .card-content h3 {
+		font-size: 1rem;
+	}
+
+	.card .card-content span {
+		font-size: 0.875rem;
+	}
+}
