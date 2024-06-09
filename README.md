@@ -1,6 +1,6 @@
 # FindRecipe
 
-## What is FindRecipe
+## What is FindRecipe?
 ![image](https://github.com/jfmartinz/FindRecipe/assets/129386460/8fe2c8ac-6692-4fdb-b323-923507e0c3d4)
 FindRecipe - Dive into a global pantry of over 300+ recipes from a vast collection of recipes from around the world. Find your perfect dish!
 
