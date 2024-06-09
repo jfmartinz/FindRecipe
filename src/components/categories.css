@@ -1,0 +1,159 @@
+.categories {
+	padding-bottom: 2rem;
+}
+
+.categories h2 {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.category-container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.bg {
+	display: none;
+}
+
+.row1,
+.row2 {
+	gap: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+.row2 {
+	margin-top: 20px;
+}
+
+.category {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: var(--clr4);
+	border-radius: 8px;
+	min-height: 55px;
+	padding: 0.2rem;
+	width: 100%;
+}
+
+.category h4 {
+	font-family: var(--font1);
+	margin-left: 12px;
+}
+
+@media (min-width: 530px) {
+	.row1,
+	.row2 {
+		display: grid;
+		grid-gap: 10px;
+		grid-template-columns: repeat(2, 1fr);
+		justify-items: center;
+	}
+
+	.row2 {
+		margin-top: 20px;
+		margin-left: 0;
+	}
+
+	.category {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: var(--clr4);
+		border-radius: 8px;
+		min-height: 55px;
+		padding: 0.2rem;
+		width: 80%;
+	}
+
+	.category h4 {
+		font-family: var(--font1);
+		margin-left: 12px;
+	}
+}
+
+@media (min-width: 768px) {
+	.row1,
+	.row2 {
+		display: grid;
+		grid-gap: 10px;
+		grid-template-columns: repeat(3, 1fr);
+		justify-items: center;
+	}
+
+	.categories h2 {
+		font-size: 25px;
+	}
+
+	.row2 {
+		margin-top: 20px;
+		margin-left: 0;
+	}
+
+	.category {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+		background-color: var(--clr4);
+		border-radius: 8px;
+		min-height: 55px;
+		padding: 0.2rem;
+		width: 80%;
+	}
+
+	.category h4 {
+		font-family: var(--font1);
+		margin-left: 12px;
+	}
+}
+
+@media (min-width: 1100px) {
+	.row1,
+	.row2 {
+		display: grid;
+		grid-gap: 10px;
+		grid-template-columns: repeat(6, 1fr);
+		justify-items: center;
+	}
+
+	.row2 {
+		margin-top: 20px;
+		margin-left: 75px;
+	}
+
+	.category {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+		background-color: var(--clr4);
+		border-radius: 8px;
+		min-height: 55px;
+		padding: 0 1.5rem;
+	}
+
+	.category h4 {
+		font-family: var(--font1);
+		margin-left: 12px;
+	}
+
+	.bg {
+		display: block;
+		position: absolute;
+		top: 140px;
+		z-index: -100;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		border-radius: 4px;
+		min-height: 500px;
+	}
+}

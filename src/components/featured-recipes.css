@@ -71,6 +71,11 @@ a {
 	background-color: var(--clr10);
 }
 
+@media (min-width: 968px) {
+	.bg {
+		display: block;
+	}
+}
 /* Responsive */
 
 @media (min-width: 768px) {

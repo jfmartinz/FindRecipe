@@ -8,11 +8,8 @@
 		<title>Results</title>
 		<link
 			rel="stylesheet"
-			href="../styles/style.css" type="text/css" />
-		<link
-			rel="stylesheet"
-			href="./displayRecipe.css" />
-
+			href="/style.css" type="text/css" />
+			<link rel="stylesheet" href="/src/components/displayRecipe.css">
 		</head>
 		
 		<body>
@@ -36,7 +33,7 @@
 					title="Search Button"
 					id="search-btn">
 					<img
-					src="./svgs/Search.svg"
+					src="/svgs/Search.svg"
 					alt="Search Icon" />
 				</button>
 			</div>
@@ -112,8 +109,10 @@
 				</div> -->
 
 			</div>
-			<script  src="../src/mealDBAPI.js"></script>
 
+			<script
+			type="module"
+			src="./src/js/mealDBAPI.js"></script>
 		</body>
 		</html>
 		
