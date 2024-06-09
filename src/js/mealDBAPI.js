@@ -60,6 +60,11 @@ document.addEventListener('DOMContentLoaded', function () {
 					</div>
 				</div>
 			</div>
+					<a
+			href="/displayRecipe.html"
+			class="return-link"
+			>Go back</a
+		>
 					`;
 					document.body.appendChild(recipeDetailsContainer);
 				}
@@ -130,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		if (event.target.matches('.view-recipe')) {
 			const recipeId = event.target.dataset.id;
 			if (recipeId) {
-				window.open(`recipe.html?view-recipe=${recipeId}`, '_blank');
+				window.open(`recipe.html?view-recipe=${recipeId}`, '_self');
 			} else {
 				console.error('No recipeId found for the clicked recipe button.');
 			}
