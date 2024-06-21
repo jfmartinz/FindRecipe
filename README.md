@@ -1,8 +1,37 @@
-# FindRecipe
+
+
+
+![image](https://github.com/jfmartinz/FindRecipe/assets/129386460/8fe2c8ac-6692-4fdb-b323-923507e0c3d4)
 
 ## What is FindRecipe?
-![image](https://github.com/jfmartinz/FindRecipe/assets/129386460/8fe2c8ac-6692-4fdb-b323-923507e0c3d4)
 FindRecipe - Dive into a global pantry of over 300+ recipes from a vast collection of recipes from around the world. Find your perfect dish!
+
+## Features
+### Display of Featured and Latest Recipes
+- Showcase a curated selection of featured recipes prominently on the homepage to attract user attention.
+- Showcase the latest recipes on the homepage
+
+### Recipe Search Functionality
+- Allow users to search for recipes by name using a dynamic search bar.
+
+### Recipe Filtering
+- Users can filter recipes by their first letter, providing an intuitive way to browse through the recipe collection.
+- Additional filtering by the full recipe name to quickly narrow down the options.
+- Ingredient, Area, and Category Filtering
+- Filter recipes based on the area of origin, allowing users to explore regional cuisines and discover new flavors.
+- Organize and filter recipes by categories such as beef, chicken, desserts, and more, providing a structured browsing experience.
+
+### Responsive Design
+The website is fully responsive and optimized for mobile devices, tablets, and desktops, offering a seamless experience across all screen sizes.
+
+## Tech Stack
+- HTML
+- CSS
+- JS
+- Swiper JS
+- MealDB API 
+
+
 
 ## Prerequisites
 
@@ -35,3 +64,5 @@ Use Vite to start the development server. This will serve your project and watch
 ```sh
 npm run dev
 ```
+
+
