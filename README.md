@@ -1,27 +1,46 @@
 
 
 
-![image](https://github.com/jfmartinz/FindRecipe/assets/129386460/8fe2c8ac-6692-4fdb-b323-923507e0c3d4)
+<table>
+   <h6>Home Page</h6>
+<img src="https://github.com/jfmartinz/FindRecipe/assets/129386460/8fe2c8ac-6692-4fdb-b323-923507e0c3d4" alt="image" />
+  <tr>
+    <td>
+       <h6>Recipe Details Page</h6>
+       <img src="https://github.com/user-attachments/assets/052a4666-ce13-428c-8d3e-2eceeca76905" alt="image" />
+    </td>
+    <td>
+      <h6>Recipe Result Page</h6>
+      <img src="https://github.com/user-attachments/assets/61c71718-222a-4e93-8edd-aa724065f17d" alt="image" />
+    </td>
+  </tr>
+</table>
+
+    
+
+
 
 ## What is FindRecipe?
 FindRecipe - Dive into a global pantry of over 300+ recipes from a vast collection of recipes from around the world. Find your perfect dish!
 
 ## Features
-### Display of Featured and Latest Recipes
-- Showcase a curated selection of featured recipes prominently on the homepage to attract user attention.
+### 1. Display of Featured and Latest Recipes 
+- Showcase the featured recipes on the homepage. 
 - Showcase the latest recipes on the homepage
+  
+> Featured Recipe & Latest Recipe displayed on the page is static. 
 
-### Recipe Search Functionality
-- Allow users to search for recipes by name using a dynamic search bar.
+### 2. Recipe Search Functionality
+- Allow users to search for recipes by name or first letter using the search bar. 
 
-### Recipe Filtering
+### 3. Recipe Filtering
 - Users can filter recipes by their first letter, providing an intuitive way to browse through the recipe collection.
 - Additional filtering by the full recipe name to quickly narrow down the options.
 - Ingredient, Area, and Category Filtering
 - Filter recipes based on the area of origin, allowing users to explore regional cuisines and discover new flavors.
 - Organize and filter recipes by categories such as beef, chicken, desserts, and more, providing a structured browsing experience.
 
-### Responsive Design
+### 4. Responsive Design
 The website is fully responsive and optimized for mobile devices, tablets, and desktops, offering a seamless experience across all screen sizes.
 
 ## Tech Stack
@@ -65,4 +84,8 @@ Use Vite to start the development server. This will serve your project and watch
 npm run dev
 ```
 
+## Connect With Me :)
+- [LinkedIn](https://www.linkedin.com/in/jfmartinz/)
+- [GitHub](https://github.com/jfmartinz)
+- [X (Twitter)](https://twitter.com/jfmartinz)
 
