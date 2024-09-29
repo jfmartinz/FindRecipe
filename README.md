@@ -21,7 +21,7 @@
 
 
 ## What is FindRecipe?
-FindRecipe - Dive into a global pantry of over 300+ recipes from a vast collection of recipes from around the world. Find your perfect dish!
+FindRecipe is a recipe website project built using JavaScript. It allows users to explore and discover various cuisines from around the world. The site is powered by the [MEALDB API](https://www.themealdb.com/api.php), which provides detailed information for each recipe.
 
 ## Features
 ### 1. Display of Featured and Latest Recipes 
