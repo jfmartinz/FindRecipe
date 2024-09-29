@@ -47,8 +47,8 @@ The website is fully responsive and optimized for mobile devices, tablets, and d
 - HTML
 - CSS
 - JS
-- Swiper JS
-- MealDB API 
+- [Swiper JS](https://swiperjs.com/)
+- [MealDB API](https://www.themealdb.com/api.php) 
 
 
 
