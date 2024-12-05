@@ -28,20 +28,19 @@ FindRecipe is a recipe website project built using JavaScript. It allows users t
 - Showcase the featured recipes on the homepage. 
 - Showcase the latest recipes on the homepage
   
-> Featured Recipe & Latest Recipe displayed on the page is static. 
+### 3. Display recipe details
+- Users can go to recipe's respective page by clicking the 'View Recipe' button.
+- The button will direct them to the recipe page which contains the information about the recipe, including the instructions on how to prepare it, ingredients, etc.
 
 ### 2. Recipe Search Functionality
 - Allow users to search for recipes by name or first letter using the search bar. 
 
 ### 3. Recipe Filtering
 - Users can filter recipes by their first letter, providing an intuitive way to browse through the recipe collection.
-- Additional filtering by the full recipe name to quickly narrow down the options.
 - Ingredient, Area, and Category Filtering
-- Filter recipes based on the area of origin, allowing users to explore regional cuisines and discover new flavors.
-- Organize and filter recipes by categories such as beef, chicken, desserts, and more, providing a structured browsing experience.
 
 ### 4. Responsive Design
-The website is fully responsive and optimized for mobile devices, tablets, and desktops, offering a seamless experience across all screen sizes.
+The website is fully responsive and optimized for mobile devices, tablets, and desktops.
 
 ## Tech Stack
 - HTML
